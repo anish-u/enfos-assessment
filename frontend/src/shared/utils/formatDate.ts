@@ -1,0 +1,16 @@
+export function formatDate(isoDate?: string | null): string {
+  if (!isoDate) {
+    return 'Unknown';
+  }
+
+  const date = new Date(isoDate);
+  if (Number.isNaN(date.getTime())) {
+    return 'Unknown';
+  }
+
+  return date.toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}

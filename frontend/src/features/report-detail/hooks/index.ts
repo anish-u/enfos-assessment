@@ -1,0 +1,1 @@
+export { useReportDetail } from './useReportDetail';

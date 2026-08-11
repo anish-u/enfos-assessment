@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand: 13 148 136;
+    --color-brand-light: 204 251 241;
+    --color-brand-dark: 15 118 110;
+    --color-surface: 255 255 255;
+    --color-surface-muted: 240 253 250;
+    --color-border: 204 251 241;
+    --color-text: 15 23 42;
+    --color-text-muted: 100 116 139;
+    --color-accent: 13 148 136;
+    --color-accent-light: 204 251 241;
+  }
+}
