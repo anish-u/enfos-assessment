@@ -102,16 +102,8 @@ The existing `GET /api/reports` endpoint remains available for backward compatib
 
 
 ## Demo
-<center>
- <iframe width="560" 
-         height="315" 
-         src="https://youtu.be/JV_CEbmT0N8" 
-         title="Demo" 
-         frameborder="0" 
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-         allowfullscreen>
- </iframe>
-</center>
+## 🎥 Demo
+[![Watch the demo](docs/enfos-assessment.gif)](https://www.youtube.com/watch?v=JV_CEbmT0N8)
 
 ## Screenshots
 
