@@ -25,7 +25,6 @@ Wait until the backend healthcheck passes and the frontend container starts. The
 
 - **Application (UI):** [http://localhost:3000](http://localhost:3000)
 - **API (direct):** [http://localhost:8080/api/reports](http://localhost:8080/api/reports) · [Dashboard](http://localhost:8080/api/dashboard)
-- **Health check:** [http://localhost:8080/actuator/health](http://localhost:8080/actuator/health) (used by Docker; not a business API)
 
 ## How to Stop
 
@@ -102,6 +101,17 @@ The existing `GET /api/reports` endpoint remains available for backward compatib
 - **No auth** — Internal tool assumption; no login or authorization layer.
 
 
+## Demo
+<center>
+ <iframe width="560" 
+         height="315" 
+         src="https://youtu.be/JV_CEbmT0N8" 
+         title="Demo" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+ </iframe>
+</center>
 
 ## Screenshots
 
